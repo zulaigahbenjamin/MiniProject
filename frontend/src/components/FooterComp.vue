@@ -124,4 +124,30 @@ export default {
 </script>
 <style scoped>
     
+
+    .text-reset {
+  text-decoration: none !important;
+  color: #484848 !important;
+}
+
+.text-uppercase {
+  color: black !important;
+}
+/* end of footer */
+
+/* about */
+strong {
+  color: black !important;
+  font-family: "Caveat", cursive !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+span {
+  color: pink !important;
+  font-family: "Caveat", cursive !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+
+    
 </style>

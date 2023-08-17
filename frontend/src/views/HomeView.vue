@@ -1,18 +1,13 @@
 <template>
   <div class="home">
     <section id="hero">
-      <a href="/html/product.html"
-        ><button
-          style="
-            background-color: #d78976 !important;
-            align-items: center !important;
-            text-align: center !important;
-          "
-          class="btn btn p-2 px-4"
-        >
+      <a href="/html/product.html"><button style="background-color: #d78976 !important; align-items: center !important; text-align: center !important;" class="btn btn p-2 px-4">
+
           Shop Our Collection
-        </button></a
-      >
+
+        </button></a>
+
+        
     </section>
 
     <div class="category" id="category">
@@ -62,12 +57,12 @@
       >
         SKIN CARE SPOTLIGHT
       </h2>
-      <ul class="cardz" style="height: 40rem; width: 100%">
+      <ul class="cardz" style="height: 40rem; width: 100% !important">
         <li class="kard">
           <div>
             <h3 class="card-title">Body Products</h3>
             <img
-              style="height: 20rem"
+              style="height: 20rem !important"
               src="https://i.postimg.cc/Zq8WjpzV/Prod-Info-1.png"
               alt="Info-1"
             />
@@ -87,7 +82,7 @@
           <div>
             <h3 class="card-title">Facial Products</h3>
             <img
-              style="height: 20rem"
+              style="height: 20rem !important"
               src="https://i.postimg.cc/L5b5hVj6/Prod-Info-2.png"
               alt="Info-2"
             />
@@ -106,7 +101,7 @@
           <div>
             <h3 class="card-title">Glass Skin Care</h3>
             <img
-              style="height: 20rem"
+              style="height: 20rem !important"
               src="https://i.postimg.cc/DzPz1h1N/Prod-Info-3.png"
               alt="Info-3"
             />
@@ -125,7 +120,7 @@
           <div>
             <h3 class="card-title">Glow Skin Care</h3>
             <img
-              style="height: 20rem"
+              style="height: 20rem !important"
               src="https://i.postimg.cc/Kz9vs5qr/Prod-Info-4.png"
               alt="Prod-4"
             />
@@ -145,7 +140,7 @@
           <div>
             <h3 class="card-title">Summer Skin Care</h3>
             <img
-              style="height: 20rem"
+              style="height: 20rem !important"
               src="https://i.postimg.cc/Wzy9StBb/Prod-Info-5.jpg"
               alt="ProdInfo-5"
             />
@@ -164,7 +159,7 @@
           <div>
             <h3 class="card-title">Essential Oils</h3>
             <img
-              style="height: 20rem"
+              style="height: 20rem !important"
               src="https://i.postimg.cc/5tJsshRv/Prod-Info-6.jpg"
               alt="ProdInfo-6"
             />
@@ -184,10 +179,81 @@
     </div>
     <!-- <footer class="page-footer"> -->
 
+
+          <!-- Carousel -->
+
+    <div class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <h2>REAL PEOPLE, REAL REVIEWS</h2>
+
+              <div class="section-borders">
+                <span></span>
+                <span class="black-border"></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-carousel client-testimonial-carousel">
+              <div class="single-testimonial-item">
+                <p>
+                  First time online shopping with Skin Theory was great! Wide
+                  range of k-beauty products, very user friendly and simple
+                  shopping process, and loved the many lovely free samples that
+                  came along with my purchases. Will definitely be using Skin
+                  Theory again for my next k-beauty fix!
+                </p>
+                <h3>Nicki Manaj <span>Customer</span></h3>
+              </div>
+              <div class="single-testimonial-item">
+                <p>
+                  Ran out of my Korean skincare and Skin Theory had a selection
+                  (& more) of what I was looking for. Price of products are
+                  affordable. Delivery was very quick and was pleasantly
+                  surprised at the generosity of samples. Will definitely return
+                  to order more.
+                </p>
+                <h3>Cardi B <span>Customer</span></h3>
+              </div>
+              <div class="single-testimonial-item">
+                <p>
+                  The online store has a great layout. I can search by brand,
+                  skin-type and category which is makes navigating so easy!!
+                  They carry more brands than other Korean skincare online
+                  stores. Products are well-described and I love the blogs too!
+                  Delivery is fast.
+                </p>
+                <h3>Ariana Grande <span>Customer</span></h3>
+              </div>
+              <div class="single-testimonial-item">
+                <p>
+                  Smooth and thick on the skin, good deep hydration, not leaving
+                  a trace of greece behind. I love it! My skin is very dry,
+                  itchy with ashy elbows dry finger nails, fruity buns with a
+                  bit of a itch and this serum does a perfect job of deep
+                  hydration on my skin. Feels thick, smooth. I highly
+                  recommend!!
+                </p>
+                <h3>Selena Gomez <span>Customer</span></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Carousel -->
+
   </div>
 </template>
 
 <script>
+
 export default {
   name: "HomeView",
   components: {},
@@ -359,14 +425,15 @@ nav {
 }
 
 #hero button {
-  letter-spacing: 3px;
-  font-size: 17px;
-  border-radius: 8px;
-  transition: all 0.2s ease-in-out;
-  box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#FFFCF2;
-  cursor: pointer;
-  margin-left: 30rem;
-  margin-top: 50rem;
+  letter-spacing: 3px !important;
+  font-size: 17px !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#FFFCF2 !important;
+  cursor: pointer !important;
+  padding:6px !important;
+  /* margin-left: 30rem !important; */
+  /* margin-top: 50rem !important; */
 }
 
 #hero button:hover {
@@ -825,154 +892,154 @@ form {
 
 /* Slide Prods */
 :root {
-  --whitesmoke: whitesmoke;
-  --darkred: #faaa94;
-  --platinum: #e5e5e5;
-  --black: #2b2d42;
-  --white: #fff;
-  --thumb: #edf2f4;
+  --whitesmoke: whitesmoke !important;
+  --darkred: #faaa94 !important;
+  --platinum: #e5e5e5 !important;
+  --black: #2b2d42 !important;
+  --white: #fff !important;
+  --thumb: #edf2f4 !important
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 body {
-  font: 16px / 24px "Rubik", sans-serif;
-  color: var(--black);
-  background: var(--platinum);
+  font: 16px / 24px "Rubik", sans-serif !important;
+  color:#2b2d42 !important;
+  background-color:#e5e5e5 !important;
   margin: 50px 0;
 }
 
 .container {
-  max-width: 1400px;
-  padding: 0 15px;
-  margin: 0 auto;
+  max-width: 1400px !important;
+  padding: 0 15px !important;
+  margin: 0 auto !important;
 }
 
 h2 {
-  font-size: 32px;
-  margin-bottom: 1em;
+  font-size: 32px !important;
+  margin-bottom: 1em !important;
 }
 
 .cardz {
-  display: flex;
-  padding: 25px 0px;
-  list-style: none;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  display: flex !important;
+  padding: 25px 0px !important;
+  list-style: none !important;
+  overflow-x: scroll !important;
+  scroll-snap-type: x mandatory !important;
 }
 
 .kard {
-  display: flex;
-  flex-direction: column;
-  flex: 0 0 100%;
-  padding: 20px;
-  background: var(--white);
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
-  scroll-snap-align: start;
-  transition: all 0.2s;
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 0 0 100% !important;
+  padding: 20px !important;
+  background-color: #fff  !important;
+  border-radius: 12px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%) !important;
+  scroll-snap-align: start !important;
+  transition: all 0.2s !important;
 }
 
 .kard:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 10px !important;
 }
 
 .kard:hover {
   /* color: var(--white); */
-  background: var(--whitesmoke);
+  background-color: whitesmoke !important;
 }
 
 .kard .card-title {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .kard .card-content {
-  margin: 20px 0;
-  max-width: 85%;
+  margin: 20px 0 !important;
+  max-width: 85% !important;
 }
 
 .kard .card-link-wrapper {
-  margin-top: auto;
+  margin-top: auto !important;
 }
 
 .kard .card-link {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  background: var(--darkred);
-  padding: 6px 12px;
-  border-radius: 8px;
-  transition: background 0.2s;
+  display: inline-block !important;
+  text-decoration: none !important;
+  color: white !important;
+  background-color:#faaa94 !important;
+  padding: 6px 12px !important;
+  border-radius: 8px!important ;
+  transition: background 0.2s !important;
 }
 
 .kard:hover .card-link {
-  background: var(--darkred);
+  background-color: #faaa94 !important;
 }
 
 .cardz::-webkit-scrollbar {
-  height: 12px;
+  height: 12px !important;
 }
 
 .cardz::-webkit-scrollbar-thumb,
 .cardz::-webkit-scrollbar-track {
-  border-radius: 92px;
+  border-radius: 92px !important;
 }
 
 .cardz::-webkit-scrollbar-thumb {
-  background: var(--darkred);
+  background-color: #faaa94 !important;
 }
 
 .cardz::-webkit-scrollbar-track {
-  background: var(--thumb);
+  background-color:#edf2f4 !important;
 }
 
 @media (min-width: 500px) {
   .kard {
-    flex-basis: calc(50% - 10px);
+    flex-basis: calc(50% - 10px) !important;
   }
 
   .kard:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 20px !important;
   }
 }
 
 @media (min-width: 700px) {
   .kard {
-    flex-basis: calc(calc(100% / 3) - 20px);
+    flex-basis: calc(calc(100% / 3) - 20px) !important;
   }
 
   .kard:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 30px !important;
   }
 }
 
 @media (min-width: 1100px) {
   .kard {
-    flex-basis: calc(25% - 30px);
+    flex-basis: calc(25% - 30px) !important;
   }
 
   .kard:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 40px !important;
   }
 }
 
 .page-footer {
-  position: fixed;
-  right: 0;
-  bottom: 50px;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  z-index: 1;
+  position: fixed !important;
+  right: 0 !important;
+  bottom: 50px !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 5px !important;
+  z-index: 1 !important;
 }
 
 .page-footer a {
-  display: flex;
-  margin-left: 4px;
+  display: flex !important;
+  margin-left: 4px !important;
 }
 /* End of Slide Prods */
 
@@ -980,120 +1047,120 @@ h2 {
 
 h2,
 h3 {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .section-padding {
-  padding: 80px 0;
+  padding: 80px 0 !important;
 }
 
 .section-title {
-  text-align: center;
-  margin-bottom: 60px;
+  text-align: center !important;
+  margin-bottom: 60px !important;
 }
 
 .section-borders span {
-  height: 5px;
-  background: #faaa94;
-  width: 40px;
-  display: inline-block;
-  border-radius: 2px;
+  height: 5px !important;
+  background: #faaa94 !important;
+  width: 40px !important;
+  display: inline-block !important;
+  border-radius: 2px !important;
 }
 
 .section-borders span.black-border {
-  background: #333;
-  width: 30px;
-  margin: 0 6px;
+  background: #333 !important;
+  width: 30px !important;
+  margin: 0 6px !important;
 }
 
 .client-testimonial-carousel .owl-dots button {
-  height: 5px;
+  height: 5px !important;
   background: #faaa94 !important;
-  width: 20px;
-  display: inline-block;
-  margin: 5px;
-  transition: 0.2s;
-  border-radius: 2px;
+  width: 20px !important;
+  display: inline-block !important;
+  margin: 5px !important;
+  transition: 0.2s !important;
+  border-radius: 2px !important;
 }
 
 .client-testimonial-carousel button.owl-dot.active {
   background: #333 !important;
-  width: 30px;
+  width: 30px !important;
 }
 
 .client-testimonial-carousel .owl-dots {
-  text-align: center;
-  margin-top: 25px;
+  text-align: center !important;
+  margin-top: 25px !important;
 }
 
 .single-testimonial-item {
-  position: relative;
-  box-shadow: 0 0 2px #dadfd3;
-  margin: 2px;
-  padding: 20px;
-  font-style: italic;
-  padding-left: 85px;
+  position: relative !important;
+  box-shadow: 0 0 2px #dadfd3 !important;
+  margin: 2px !important; 
+  padding: 20px !important;
+  font-style: italic !important;
+  padding-left: 85px !important;
 }
 
 .single-testimonial-item:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f10e";
-  font-weight: 900;
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  font-size: 20px;
-  color: #333;
-  line-height: 30px;
-  margin-top: -15px;
+  font-family: "Font Awesome 5 Free" !important;
+  content: "\f10e" !important;
+  font-weight: 900 !important;
+  position: absolute !important;
+  left: 20px !important;
+  top: 50% !important;
+  font-size: 20px !important;
+  color: #333 !important;
+  line-height: 30px !important;
+  margin-top: -15px !important;
 }
 
 .single-testimonial-item:after {
-  background: #ddd;
-  content: "";
-  height: 70%;
-  left: 60px;
-  position: absolute;
-  top: 10%;
-  width: 1px;
+  background: #ddd !important;
+  content: "" !important;
+  height: 70% !important;
+  left: 60px !important;
+  position: absolute !important;
+  top: 10% !important;
+  width: 1px !important;
 }
 
 .single-testimonial-item h3 {
-  font-size: 20px;
-  font-style: normal;
-  margin-bottom: 0;
+  font-size: 20px !important;
+  font-style: normal !important;
+  margin-bottom: 0 !important;
 }
 
 .single-testimonial-item h3 span {
-  display: block;
-  font-size: 12px;
-  font-weight: normal;
-  margin-top: 5px;
+  display: block !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  margin-top: 5px !important;
 }
 /* end of carousel */
 
 /* footer */
 .text-reset {
-  text-decoration: none;
-  color: #484848;
+  text-decoration: none !important;
+  color: #484848 !important;
 }
 
 .text-uppercase {
-  color: black;
+  color: black !important;
 }
 /* end of footer */
 
 /* about */
 strong {
-  color: black;
-  font-family: "Caveat", cursive;
-  font-family: "Poppins", sans-serif;
+  color: black !important;
+  font-family: "Caveat", cursive !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 span {
-  color: pink;
-  font-family: "Caveat", cursive;
-  font-family: "Poppins", sans-serif;
+  color: pink !important;
+  font-family: "Caveat", cursive !important;
+  font-family: "Poppins", sans-serif !important;
 }
 /* about end */
 </style>
