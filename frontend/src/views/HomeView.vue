@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <section id="hero">
-      <a href="/html/product.html"><button style="background-color: #d78976 !important; align-items: center !important; text-align: center !important;" class="btn btn p-2 px-4">
+      <a class="anchor-button"  href="/html/product.html"><button style="background-color: #d78976 !important; border-radius: 0% !important;padding: 10px !important; align-items: center !important; text-align: center !important;" class="btn btn p-2 px-4">
 
           Shop Our Collection
 
@@ -273,6 +273,14 @@ export default {
   font-family: "Poppins", sans-serif;
 }
 
+.anchor-button{
+  margin-left: 50rem !important;
+  margin-top: 51rem !important;
+}
+.btn{
+  color: white;
+}
+
 h1 {
   font-size: 50px;
   line-height: 64px;
@@ -381,6 +389,8 @@ nav {
     font-size: 11px !important;
     letter-spacing: 0 !important;
     margin-top: 4px !important;
+    text-decoration: none !important;
+
   }
 
   .category-box h3 {
@@ -426,10 +436,10 @@ nav {
 
 #hero button {
   letter-spacing: 3px !important;
-  font-size: 17px !important;
-  border-radius: 8px !important;
+  font-size: 14px !important;
+  /* border-radius: 8px !important; */
   transition: all 0.2s ease-in-out !important;
-  box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#FFFCF2 !important;
+  /* box-shadow: 4px 4px 10px #ccc5b9, -4px -4px 10px#FFFCF2 !important; */
   cursor: pointer !important;
   padding:6px !important;
   /* margin-left: 30rem !important; */
@@ -437,7 +447,7 @@ nav {
 }
 
 #hero button:hover {
-  box-shadow: -4px -4px 10px #ccc5b9, 4px 4px 10px#FFFCF2;
+  box-shadow: -2px -2px 5px #ccc5b9, 2px 2px 5px#FFFCF2 !important;
 }
 
 /* feature button */
@@ -1163,4 +1173,6 @@ span {
   font-family: "Poppins", sans-serif !important;
 }
 /* about end */
+
+
 </style>
