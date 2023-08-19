@@ -16,13 +16,13 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
 
-      <img src="https://i.postimg.cc/7Ybwv2RY/Slide-Skin-care.png" class="d-block w-75  mx-auto" style="height: 300px; width: 35rem;">
+      <img src="https://i.postimg.cc/7Ybwv2RY/Slide-Skin-care.png" class="d-block w-70  mx-auto" style="height: 300px; width: 46rem;">
     </div>
     <div class="carousel-item">
-      <img src="https://i.postimg.cc/JnzfWwhH/11111.png" class="d-block w-75 mx-auto" style="height: 300px;">
+      <img src="https://i.postimg.cc/JnzfWwhH/11111.png" class="d-block w-70 mx-auto" style="height: 300px;">
     </div>
     <div class="carousel-item">
-      <img src="https://i.postimg.cc/0NPgcKRf/lll.png" class="d-block w-75 mx-auto" style="height: 300px;">
+      <img src="https://i.postimg.cc/0NPgcKRf/lll.png" class="d-block w-70 mx-auto" style="height: 300px;">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -37,7 +37,7 @@
 <!-- End of slideshow -->
 
 <!-- Card section -->
-<h2 class="text-caro" style="text-align: center;letter-spacing: 8px;margin: 2rem;">KOREAN SKIN</h2>
+<h2 class="text-caro" style="text-align: center;letter-spacing: 8px;margin: 2rem; color:black;">KOREAN SKIN</h2>
  
 
 <!-- filter -->
@@ -84,6 +84,7 @@
 
 
     </div>
+  </div>
 </template>
 <script>
 export default {
